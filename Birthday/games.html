@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiny Birthday Games 🎀</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-floaters" aria-hidden="true"></div>
+
+<div class="page-wrap">
+
+  <a href="memories.html" class="back-link">← back</a>
+  <h1 class="site-title">tiny birthday games</h1>
+  <p class="site-subtitle">obviously I couldn't just give you a normal gift</p>
+
+  <!-- ================================================
+       GAME 1 — Catch the Hearts
+       ================================================ -->
+  <div class="game-card">
+    <h2>Catch the hearts 💗</h2>
+    <p class="game-sub">Tap the hearts before they float away. 30 seconds. Go.</p>
+
+    <div class="game-hud">
+      <div>Score: <span id="hearts-score">0</span></div>
+      <div>Time: <span id="hearts-time">30</span>s</div>
+    </div>
+
+    <div class="heart-field" id="heart-field"></div>
+
+    <br>
+    <button class="game-start-btn" id="hearts-start">Start catching</button>
+    <p class="result-text" id="hearts-result"></p>
+  </div>
+
+  <!-- ================================================
+       GAME 2 — Find the Hidden Heart
+       ================================================ -->
+  <div class="game-card">
+    <h2>Find the hidden heart 🔎</h2>
+    <p class="game-sub">One of these is hiding a heart. Find it.</p>
+
+    <div class="hidden-scene" id="hidden-scene">
+      <!-- Objects scattered around the scene. One is data-correct="true" -->
+      <button class="scene-object" style="top:12%; left:15%;" data-correct="false">🌸</button>
+      <button class="scene-object" style="top:20%; left:70%;" data-correct="false">📚</button>
+      <button class="scene-object" style="top:55%; left:8%;" data-correct="false">🧸</button>
+      <button class="scene-object correct" style="top:62%; left:48%;" data-correct="true">🌷</button>
+      <button class="scene-object" style="top:15%; left:45%;" data-correct="false">🌙</button>
+      <button class="scene-object" style="top:70%; left:78%;" data-correct="false">☕</button>
+      <button class="scene-object" style="top:40%; left:28%;" data-correct="false">🍓</button>
+      <button class="scene-object" style="top:45%; left:85%;" data-correct="false">🎈</button>
+    </div>
+
+    <p class="result-text" id="hidden-result"></p>
+  </div>
+
+  <!-- ================================================
+       GAME 3 — Birthday Memory Quiz
+       ================================================ -->
+  
+
+  <div class="nav-forward">
+    <a href="letters.html" class="cute-btn">I have something else for you →</a>
+  </div>
+
+</div>
+
+<button id="music-btn" class="music-toggle">♫ Play our little soundtrack</button>
+<audio id="bg-audio" loop>
+  <source src="audio/birthday-song.mp3.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Little Notes 💌</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-floaters" aria-hidden="true"></div>
+
+<div class="page-wrap">
+
+  <a href="games.html" class="back-link">← back</a>
+  <h1 class="site-title">little notes for you</h1>
+  <p class="site-subtitle">open whichever one you need right now</p>
+
+  <!-- =========================
+       EDIT LETTERS HERE
+       Duplicate an .envelope block. Edit the label and the data-message text.
+  ========================= -->
+  <div class="envelope-grid">
+
+    <div class="envelope" data-message="I know we're very far apart right now and it can be hard sometimes, but I want you to know that I'm always thinking of you even I miss you, and I can't wait until we get together again">
+      <span class="env-label">Open when you miss me 💌</span>
+    </div>
+
+    <div class="envelope" data-message="Just remember me twerking and my &quot;lachili&quot; kamar and you'll be smiling in no time mwah 😘">
+      <span class="env-label">Open when you need a smile 💌</span>
+    </div>
+
+    <div class="envelope" data-message="I hope ki zyada calls nahi aaye and your day is going well, I wanted to be there with you celebrating your birthday but thats a thing for the future ig, abhi aaj enjoy your day to the fullest!!!">
+      <span class="env-label">Open because it's your birthday 💌</span>
+    </div>
+
+    <div class="envelope" data-message="One last thing before you go to the final page: thank you for letting me love you, thank you for loving me, thank you for being you, and thank you for being mine, thank you for being my support pillar and lastly thank you for being my everything">
+      <span class="env-label">One last thing... 💌</span>
+    </div>
+
+  </div>
+
+  <!-- note modal (shared) -->
+  <div class="note-modal" id="note-modal">
+    <div class="note-paper">
+      <button class="note-close" aria-label="Close">✕</button>
+      <p class="note-text"></p>
+    </div>
+  </div>
+
+  <p class="hand-note">There's one last message...</p>
+
+  <div class="nav-forward">
+    <a href="final.html" class="cute-btn">Take me there →</a>
+  </div>
+
+</div>
+
+<button id="music-btn" class="music-toggle">♫ Play our little soundtrack</button>
+<audio id="bg-audio" loop>
+  <source src="audio/birthday-song.mp3.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>

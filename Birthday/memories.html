@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Little Scrapbook 🎀</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-floaters" aria-hidden="true"></div>
+
+<div class="page-wrap">
+
+  <a href="index.html" class="back-link">← back</a>
+  <h1 class="site-title">our little scrapbook</h1>
+  <p class="site-subtitle">every corner of this page is a memory I didn't want to lose</p>
+
+  <!-- ================================================
+       PHOTO MEMORIES
+       ================================================ -->
+  <h2 class="section-heading">Photo memories 📸</h2>
+
+  <!-- =========================
+       ADD YOUR PHOTOS HERE
+       Duplicate a .polaroid block to add more.
+       Replace src with your own file in /images/
+       Replace the caption text inside <p class="cap">
+  ========================= -->
+  <div class="scrapbook-grid">
+
+    <div class="polaroid">
+      <span class="tape-piece"></span>
+      <span class="sticker">💗</span>
+      <!-- PHOTO — REPLACE src -->
+      <img src="images/photo1.jpeg" alt="A memory of us">
+      <!-- CAPTION — REPLACE THIS -->
+      <p class="cap">I indeed was lying🤭</p>
+    </div>
+
+    <div class="polaroid">
+      <span class="tape-piece"></span>
+      <span class="sticker">✨</span>
+      <img src="images/photo2.jpeg" alt="A memory of us">
+      <p class="cap">Uss being us🥰</p>
+    </div>
+
+    <div class="polaroid">
+      <span class="tape-piece"></span>
+      <span class="sticker">🎀</span>
+      <img src="images/photo3.jpeg" alt="A memory of us">
+      <p class="cap">I Love that smile 😊</p>
+    </div>
+
+    <div class="polaroid">
+      <span class="tape-piece"></span>
+      <span class="sticker">⭐</span>
+      <img src="images/photo4.jpeg" alt="A memory of us">
+      <!-- CAPTION — REPLACE THIS -->
+      <p class="cap">Back where it all started 🌟</p>
+    </div>
+
+    <div class="polaroid">
+      <span class="tape-piece"></span>
+      <span class="sticker">💫</span>
+      <img src="images/photo5.jpeg" alt="A memory of us">
+      <!-- CAPTION — REPLACE THIS -->
+      <p class="cap">Cutie Lil Umiii even in game💕</p>
+    </div>
+
+    
+
+    <div class="polaroid">
+      <span class="tape-piece"></span>
+      <span class="sticker">🥰</span>
+      <img src="images/photo7.jpeg" alt="A memory of us">
+      <!-- CAPTION — REPLACE THIS -->
+      <p class="cap">Only way I can give flowers for now🙂‍↕️</p>
+    </div>
+
+    <div class="polaroid">
+      <span class="tape-piece"></span>
+      <span class="sticker">🦋</span>
+      <img src="images/photo8.jpeg" alt="A memory of us">
+      <!-- CAPTION — REPLACE THIS -->
+      <p class="cap">This gonna be uss IRL veryyyyyy soon🤗</p>
+    </div>
+
+  </div>
+  <!-- ========================= END PHOTOS ========================= -->
+
+  <!-- lightbox modal (shared for all photos) -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" aria-label="Close">✕</button>
+      <img src="" alt="">
+      <p class="lightbox-cap"></p>
+    </div>
+  </div>
+
+  <!-- ================================================
+       FLIP CARDS
+       ================================================ -->
+  <h2 class="section-heading">Tap to flip 🎀</h2>
+
+  <!-- =========================
+       ADD YOUR FLIP MEMORIES HERE
+       Duplicate a .flip-card block. Edit flip-title and flip-back text.
+  ========================= -->
+  <div class="flip-grid">
+
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <div class="flip-title">What I love the most about you 🎀</div>
+          <div class="flip-hint">Tap me 💗</div>
+        </div>
+        <div class="flip-back">
+          Your smile, your laugh, the way you laugh at my dumb jokes, the way you blush and ask "kya hua achanak se" whenever I stare you during our VC        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <div class="flip-title">That random Wednesday 💗</div>
+          <div class="flip-hint">Tap me 💗</div>
+        </div>
+        <div class="flip-back">
+          <!-- REPLACE THIS MESSAGE -->
+          1 January 2025, the day I made the best decision in my life, Texting you a simple "Hi" and since then my life is filled with the sound of your laughter the beauty of your eyes and the warmth of your love I LOVEE YOUUU UMIIII!!!
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <div class="flip-title">Why is today so special? ✨</div>
+          <div class="flip-hint">Tap me 💗</div>
+        </div>
+        <div class="flip-back">
+          <!-- REPLACE THIS MESSAGE -->
+          ????DONT YOU KNOWWWWWWWWWW????? It's my Unnati's birthday!!!!!!! SHE'S THE BESTEST GIRL EVER!!!!!!!!!!
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ================================================
+       SPECIAL MEMORY CARD
+       ================================================ -->
+  <div class="special-card">
+    <span class="mini-heart" style="top:-10px; left:20px;">💗</span>
+    <span class="mini-heart" style="bottom:-8px; right:24px; animation-delay:0.6s;">✨</span>
+    <span class="mini-heart" style="top:10px; right:-6px; animation-delay:1.2s;">⭐</span>
+    <p>I ❤️ YOU</p>
+  </div>
+
+  <!-- ================================================
+       VIDEO MEMORIES
+       ================================================ -->
+  <h2 class="section-heading">Little videos 🎥</h2>
+
+  <!-- =========================
+       ADD YOUR VIDEOS HERE
+       Duplicate a .video-frame block. Replace src in /videos/ and the caption.
+  ========================= -->
+  <div class="video-grid">
+
+    <div class="video-frame">
+      <span class="sticker">🎀</span>
+      <!-- VIDEO — REPLACE src -->
+      <video controls preload="metadata">
+        <source src="videos/video1.mp4" type="video/mp4">
+        Your browser doesn't support embedded video.
+      </video>
+      <!-- CAPTION — REPLACE THIS -->
+      <p class="cap">My favorite video of us!This one still makes me smile</p>
+    </div>
+
+    <div class="video-frame">
+      <span class="sticker">💗</span>
+      <video controls preload="metadata">
+        <source src="videos/video2.mp4" type="video/mp4">
+        Your browser doesn't support embedded video.
+      </video>
+      <p class="cap">A tiny message from me for my baby</p>
+    </div>
+
+  </div>
+  <!-- ========================= END VIDEOS ========================= -->
+
+  <!-- ================================================
+       MEMORY TIMELINE
+       ================================================ -->
+  <h2 class="section-heading">Our little timeline ⭐</h2>
+
+  <!-- =========================
+       ADD YOUR MEMORY HERE
+       Duplicate a .timeline-item block. Edit date, title, description.
+  ========================= -->
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-date"><!-- DATE — REPLACE --> The beginning</div>
+      <div class="timeline-title">1 January 2025</div>
+      <div class="timeline-desc"><!-- DESCRIPTION — REPLACE -->Gathered the courage to message my vrush "HI"</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">First memory</div>
+      <div class="timeline-title">7 February 2025</div>
+      <div class="timeline-desc">The first time we met as a couple and i could not hold my smile, at that moment everything vanished only thing i could think of was us walking together in the school hallway</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">Random adventures and something special</div>
+      <div class="timeline-title">17 January 2026</div>
+      <div class="timeline-desc">Our first date and our first KISS!!! Abhi bhi while i write this im smiling remembring that moment my shy lil Unnati</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">More memories</div>
+      <div class="timeline-title">15 July 2026</div>
+      <div class="timeline-desc">PROBABLY THE BESTEST DAY!!! Our first date waali date I just can't express how happy i am whenever i remember that day OMG THAT WAS SUCH A FABULOUS DAY!!!!!</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">Us now</div>
+      <div class="timeline-title">16 September 2026</div>
+      <div class="timeline-desc">Your 18th birthday and the start of a new chapter together.</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">More to come...</div>
+      <div class="timeline-title">20XX</div>
+      <div class="timeline-desc">Abhi toh its just the beginning of our beautiful journey together HEHE. Happy Birthday Baby( I do hope you're smiling)</div>
+    </div>
+
+  </div>
+
+  <div class="nav-forward">
+    <a href="games.html" class="cute-btn">I wonder what's next👀 →</a>
+  </div>
+
+</div>
+
+<button id="music-btn" class="music-toggle">♫ Play our little soundtrack</button>
+<audio id="bg-audio" loop>
+  <source src="audio/birthday-song.mp3.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
